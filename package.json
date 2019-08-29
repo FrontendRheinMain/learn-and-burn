@@ -1,7 +1,7 @@
 {
-  "name": "deventy",
-  "version": "1.1.1",
-  "description": "A minimal 11ty starter with modern tools",
+  "name": "learn-and-burn",
+  "version": "0.0.1",
+  "description": "Unser erster Hackathon im Rhein-Main-Gebiet",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -19,14 +19,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://ianrose@github.com/ianrose/deventy.git"
+    "url": "git+https://github.com/FrontendRheinMain/learn-and-burn.git"
   },
-  "author": "",
+  "author": "Jens Grochtdreis",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ianrose/deventy/issues"
-  },
-  "homepage": "https://github.com/ianrose/deventy#readme",
+  "homepage": "https://github.com/FrontendRheinMain/",
   "devDependencies": {
     "@11ty/eleventy": "^0.8.3",
     "@babel/core": "^7.4.4",

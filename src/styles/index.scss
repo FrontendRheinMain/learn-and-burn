@@ -1,7 +1,49 @@
 @import '_reset.scss';
 
-$var: white;
+$white: #fafafa;
+$jg-red: #a20000;
 
 body {
-  background-color: $var;
+  background-color: $white;
+}
+
+.wrapper {
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+.site-header {
+  padding: 20px 0 0 0;
+  margin-bottom: 20px;
+}
+h1 {
+  color: $jg-red;
+  margin-bottom: 40px;
+}
+.home-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #2c3e50;
+
+  &:hover, &:focus {
+    color: $jg-red;
+  }
+}
+.logo {
+  height: 2.2rem;
+  min-width: 2.2rem;
+  margin-right: .8rem;
+  vertical-align: top;
+}
+.site-name {
+  display: inline-block;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: inherit;
+  position: relative;
+}
+
+.site-footer {
+
 }
