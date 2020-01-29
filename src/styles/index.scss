@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Khand:500|Lato&display=swap');
 @import '_reset.scss';
 
 $white: #fafafa;
@@ -5,6 +6,7 @@ $jg-red: #a20000;
 
 body {
   background-color: $white;
+  font-family: Lato, sans-serif;
 }
 
 .wrapper {
@@ -12,14 +14,16 @@ body {
   margin: 0 auto;
 }
 
-.site-header {
-  padding: 20px 0 0 0;
-  margin-bottom: 20px;
-}
+@import '_showtime.scss';
+@import '_navbar.scss';
+@import '_sidebar.scss';
+
 h1 {
   color: $jg-red;
   margin-bottom: 40px;
+  margin-top: 4rem;
 }
+
 .home-link {
   display: flex;
   align-items: center;
@@ -45,5 +49,9 @@ h1 {
 }
 
 .site-footer {
-
+  padding: 2rem 0;
+  a {
+    color: inherit;
+    text-decoration: underline;
+  }
 }

@@ -1,0 +1,8 @@
+
+@media screen and (min-width: 840px) {
+  .showtime {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2em;
+  }
+}
